@@ -79,6 +79,7 @@ form .input-box span.details{
   border-bottom-width: 2px;
   transition: all 0.3s ease;
   background:#161A1F;
+  color: white;
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
@@ -145,6 +146,7 @@ form .input-box span.details{
 form .user-details .input-box{
     margin-bottom: 15px;
     width: 100%;
+    color: white;
   }
   form .category{
     width: 100%;
@@ -166,8 +168,8 @@ form .user-details .input-box{
 input[type="checkbox"]{
   appearance: none;
   -webkit-appearance: none;
-  height: 15px;
-  width: 15px;
+  height: 17px;
+  width: 17px;
   background-color: #171f24;
   border: 2px solid #4558C9;
   border-radius: 2px;
@@ -178,13 +180,22 @@ input[type="checkbox"]::after{
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f00c";
-  font-size: 50px;
-  color: red;
+  font-size: 15px;
+  color: #161A1F;
   display: none;
+}
+
+input[type="checkbox"]:hover{
+  background-color: #4558C9;
 }
 
 input[type="checked"]:checked{
   background-color:#4558C9 ;
+}
+
+input[type="checkbox"]:checked:after{
+  display: block;
+  background-color: #4558C9;
 }
 
 .wrapper label{
@@ -192,6 +203,15 @@ input[type="checked"]:checked{
   
 }
 .wrapper a{
+  text-decoration: none;
+  color: #4558C9;
+}
+
+.container  .footer a{
+  font-size:15px ;
+  font-family: 'inter',sans-serif;
+  position: relative;
+  text-align: center;
   text-decoration: none;
   color: #4558C9;
 }

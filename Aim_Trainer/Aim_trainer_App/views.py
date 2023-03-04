@@ -15,6 +15,18 @@ def index(request):
     return render(request,'index.html')
     # return HttpResponse('this is homepage')
 
+def Signup(request):
+    username = request.POST.get('username')
+    email = request.POST.get('email')
+    password = request.POST.get('password')
+    re_password = request.POST.get('re-password')
+    while password != re_password:
+        
+        re_password = request.POST.get('re-password')
+    user = User.objects.create_user(username = username,
+                                 email = email,
+                                 password = password)
+    return render(request,'signup.html')
 
 def loginUser(request):
     if request.method == "POST":
@@ -33,13 +45,14 @@ def loginUser(request):
             return render(request,'login.html')
     return render(request,'login.html')
 
-def signup(request):
+
+def profile(request):
     # username = request.POST.get('username')
     # password = request.POST.get('password')
     # user = User.objects.create_user(username = username,
     #                              email = email,
     #                              password = password)
-    return render(request,'signup.html')
+    return render(request,'index.html') 
 
 def logoutUser(request):
     logout(request)

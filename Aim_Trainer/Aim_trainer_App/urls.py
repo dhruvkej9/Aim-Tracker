@@ -4,9 +4,9 @@ from django.urls import path
 from Aim_trainer_App import views
 
 urlpatterns = [
-    path("", views.loginUser,name = "home"),
+    path("", views.Signup,name = "home"),
     path("signin", views.loginUser,name = "signin"),
-    path("signup", views.signup,name = "signup"),
-    # path('profile', views.p,name = 'profile'),
-    path("play", views.signup,name = "play"),
+    path("register", views.Signup,name = "signup"),
+    path('profile', views.loginUser,name = 'profile'),
+    path("play", views.loginUser,name = "play"),
 ]

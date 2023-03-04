@@ -11,48 +11,26 @@
   <div class="container">
     <div class="header">
         <div class="title">Login</div>
-        <p> <a href="signup.html">Don't have an account</a></p>
+        <p> <a href="/register">Don't have an account</a></p>
     </div>
     
     <div class="content">
-      <form action="#">
+      <form class="form-signin" method="post" action="/signin">
+        {% csrf_token %}
         <div class="user-details">
           <div class="input-box">
             <span class="details">Username</span>
-            <input type="text" placeholder="Enter username" required>
+            <input type="text" placeholder="Enter username" name = "username" required>
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="password" placeholder="Password"  required>
+            <input type="password" placeholder="Password" name = "password" required>
           </div>
          
         </div>
-        <div class="wrapper">
-          <input type="checkbox" >
-          <label for="check">I agree to the <a href="#">terms of use</a> and <a href="#">privacy policy</a>.</label>
-      </div>
-
-
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
-            </label>
-          </div>
-        </div>
+        {% comment %} <div class="footer">
+          <p> <a href="#">Forgot Password?</a></p>
+      </div>         {% endcomment %}
         <div class="button">
           <input type="submit" value="Continue">
         </div>
