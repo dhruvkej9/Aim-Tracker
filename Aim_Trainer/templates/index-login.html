@@ -444,6 +444,7 @@
             <h1 class="heading">DRONA</h1>
           </div>
           <div class="signin-and-signup">
+            {% csrf_token %}
             <button id="play-now">
               <b>
                 <i>
@@ -458,7 +459,7 @@
               <a class="btn2" href="/statistic"><b>Statistics</b></a>
             </button>
             <button id="Log out">
-              <a class="btn4" href="/logout"><b>Log out</b></a>
+              <a class="btn4" href = "/logout"><b>Log out</b></a>
             </button>
           </div>
         </div>

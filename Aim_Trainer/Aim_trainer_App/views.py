@@ -50,14 +50,9 @@ def loginUser(request):
         print(username,password)
         # check if user has entered correct credentials 
         user = authenticate(username=username, password=password)
-        print(user)
-        if user is not None:
-            # A backend authenticated the credentials
-            login(request,user)
-            return redirect("/")
-        else:
-            # No backend authenticated the credentials
-            return render(request,'login.html')
+        # A backend authenticated the credentials
+        login(request,user)
+        return redirect("/")
     return render(request,'login.html')
 
 
@@ -72,3 +67,12 @@ def profile(request):
 def logoutUser(request):
     logout(request)
     return redirect("/")
+
+def play(request):
+    current_user = request.user
+    if request.user.is_anonymous:
+        return redirect('/')
+    return render(request,'play.html') 
+
+def statistic(request):
+    return render(request,'statistic.html') 
