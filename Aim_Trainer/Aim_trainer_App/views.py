@@ -12,7 +12,10 @@ def index(request):
     #     'variable2' : 'rohan is great'
     # }
     # return render(request,'index.html',context)
-    return render(request,'index.html')
+    current_user = request.user
+    if request.user.is_anonymous:
+        return render(request,'index.html')
+    return render(request,'index-login.html')
     # return HttpResponse('this is homepage')
 
 def Signup(request):
@@ -38,7 +41,7 @@ def Signup(request):
             return redirect("/")
         else:
             return render(request,'login.html')
-        return render(request,'signup.html')
+    return render(request,'signup.html')
 
 def loginUser(request):
     if request.method == "POST":
@@ -60,15 +63,12 @@ def loginUser(request):
 
 def profile(request):
     current_user = request.user
-    # username = request.POST.get('username')
-    # # password = request.POST.get('password')
-    # user = User.objects.create_user(username = username,
-    #                              email = email,
-    #                              password = cont)
+    if request.user.is_anonymous:
+        return redirect("/login")
     context = {"username" : current_user.username,"email" : current_user.email,
-               "phone" : current_user.phone}
+            "name" : current_user.first_name + ' ' + current_user.last_name}
     return render(request,'profile.html',context) 
 
 def logoutUser(request):
     logout(request)
-    return redirect("/login")
+    return redirect("/")

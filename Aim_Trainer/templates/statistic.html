@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrapper{
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .background{
+            background-image: url(assets/stats-bg.jpg);
+            position: relative;
+            z-index: -1;
+        }
+
+        .gaming-font{
+            position: relative;
+            max-width: 1080px;
+            box-shadow: red;
+            z-index: 2;
+            background-color: white;
+            height: 50%;
+            width: 50%;
+            padding-left: auto;
+            padding-right: auto;
+            padding: 10px;
+            box-shadow: 10px 20px 150px rgb(109, 109, 98);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="wrapper background">
+        <div class="gaming-font">
+            <!-- game viewport -->
+        </div>
+    </div>
+
+</body>
+</html>
