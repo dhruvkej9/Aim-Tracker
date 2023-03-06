@@ -131,6 +131,6 @@ STATICFILES_DIRS = [
     BASE_DIR / "Assets",
 ]
 
-from django.core import get_wsgi_application
+from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
 app = application
