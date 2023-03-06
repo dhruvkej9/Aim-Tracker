@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-&46l*)g3!-rs7gq$^1v_%3!y^8bit&o5v6p2e290-*l1!=7d20
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
-
+ALLOWED_HOSTS = ['127.0.0.1','.vercel.app', '.now.sh']
 
 # Application definition
 
@@ -130,3 +129,6 @@ STATICFILES_DIRS = [
     BASE_DIR / "Assets",
 ]
 
+from django.core import get_wsgi_application
+application = get_wsgi_application()
+app = application

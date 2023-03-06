@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "devntechno/wsgi.py",
+            "src": "Aim_Trainer/wsgi.py",
             "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
@@ -19,12 +19,12 @@
     ],
     "routes": [
         {
-            "src": "/static/(.*)",
-            "dest": "/static/$1"
+            "src": "/Assets/(.*)",
+            "dest": "/Assets/$1"
         },
         {
             "src": "/(.*)",
-            "dest": "devntechno/wsgi.py"
+            "dest": "Aim_Trainer/wsgi.py"
         }
     ]
 }
