@@ -262,6 +262,9 @@ class App(object):
                 if (left[0].y - left[1].y) < 0.015:
                     pyautogui.click()
                     # pyautogui.sleep(1)
+            cv2.imshow('Eye Controlled Mouse', frame)
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
             self.captureEvents()
 
             # Cria um novo alvo com base na quantidade de alvos por segundo.
