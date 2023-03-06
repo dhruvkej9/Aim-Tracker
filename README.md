@@ -1,3 +1,8 @@
+# Steps to run the code Fully
+
+Run the following codes : 
+
+
 # Aim-Tracker
 
 The AI model used in this game can be incredibly useful for individuals looking to improve their aim tracking skills. By tracking eye movements with exceptional accuracy, the AI algorithm can provide valuable insights into how players can enhance their targeting abilities.

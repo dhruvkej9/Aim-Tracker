@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Sign up</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="header">
+        <div class="title">Create Your Account</div>
+        <p> <a href="signin">Already have an account</a></p>
+    </div>
+    
+    <div class="content">
+      <form class = "form-signup" method="post" action="/register">
+        {% csrf_token %}
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">first name</span>
+            <input type="text" placeholder="Enter First name" name = "first_name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">last name</span>
+            <input type="text" placeholder="Enter Last name" name = "last_name">
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter username" name = "username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email Address</span>
+            <input type="email" placeholder="username@mail.com" name = "email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Password" name = "password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Re-enter Password</span>
+            <input type="password" placeholder="Re-enter Password" name = "re-password" required>
+          </div>
+         
+        </div>
+        <div class="wrapper">
+          <input type="checkbox" >
+          <label for="check">I agree to the <a href="#" class="link1">terms of use</a> and <a href="#" class="link1">privacy policy</a>.</label>
+      </div>
+
+        <div class="button">
+          <input type="submit" name = "submit" value="Continue">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

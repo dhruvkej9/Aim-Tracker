@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">
+          <div class="title">Login</div>
+          <p><a href="/register">Don't have an account</a></p>
+        </div>
+        <div class="content">
+          <form class="form-signin" method="post" action="/signin">
+            {% csrf_token %}
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Username</span>
+                <input
+                  type="text"
+                  placeholder="Enter username"
+                  name="username"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Password</span>
+                <input
+                  type="password"
+                  placeholder="Password"
+                  name="password"
+                  required
+                />
+              </div>
+            </div>
+            <div class="button">
+              <input type="submit" value="Continue" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function Myfun()
+    </script>
+
+
+  </body>
+</html>
