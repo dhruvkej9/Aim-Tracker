@@ -202,7 +202,8 @@
         z-index: -10;
         position: relative;
         width: 100vw;
-        background-image: url(/staticfiles_build/Assets/gunman-image.png);
+        {% load static %}
+        background-image: url('{% static 'gunman-image.png' %}');
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
@@ -227,7 +228,8 @@
     }
     
     .bg{
-        background-image: url(Assets/new-back-image.png);
+      {% load static %}
+        background-image: url('{% static 'new-back-image.png' %}');
         position: relative;
         width: 100%;
         background-attachment: fixed;
@@ -436,7 +438,8 @@
         <div class="navbar">
           <div class="logo-side">
             <img
-              src="Assets/Black Vintage Artemis Archery Logo Design template (1).png"
+              {% load static %}
+              src= {% static "Black Vintage Artemis Archery Logo Design template (1).png" %}
               alt=""
               height="80px"
               width="80px"
@@ -507,7 +510,8 @@
                   <div class="cards">
                     <img
                       class="image-picture"
-                      src="Assets/time-saving.svg"
+                      {% load static %}
+                      src= {% static "time-saving.svg" %}
                       alt=""
                     />
                     <h2 class="card-heading">Time saving</h2>
@@ -521,7 +525,8 @@
                   <div class="cards">
                     <img
                       class="image-picture"
-                      src="Assets/more-efficient.svg"
+                      {% load static %}
+                      src= {% static "more-efficient.svg" %}
                       alt=""
                     />
                     <h2 class="card-heading">More efficient</h2>
@@ -535,7 +540,8 @@
                   <div class="cards">
                     <img
                       class="image-picture"
-                      src="Assets/train-specific-skills.svg"
+                      {% load static %}
+                      src= {% static "train-specific-skills.svg" %}
                       alt=""
                     />
                     <h2 class="card-heading">Train specific skills</h2>
@@ -549,7 +555,8 @@
                   <div class="cards">
                     <img
                       class="image-picture"
-                      src="Assets/stats tracker.svg"
+                      {% load static %}
+                      src= {% static "stats tracker.svg" %}
                       alt=""
                     />
                     <h2 class="card-heading">Stats tracker</h2>

@@ -25,7 +25,8 @@
 }
 
 .background{
-    background-image: url(Assets/gameplay-image.png);
+    {% load static %}
+    background-image: url('{% static 'gameplay-image.png' %}');
     position: relative;
     z-index: -1;
 }
@@ -96,7 +97,8 @@ a{
     <!-- navbar -->
     <div class="navbar">
         <div class="nav-container">
-            <img src="./staticfiles_build/Assets/Black Vintage Artemis Archery Logo Design template (1).png" alt=""
+            {% load static %}
+            <img src = {% static "Black Vintage Artemis Archery Logo Design template (1).png" %} alt=""
             height="80px"
             width="80px">
             <h1 class="nav-heading">DRONA</h1>
