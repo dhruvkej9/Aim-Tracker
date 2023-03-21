@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = get_random_secret_key()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # SECURE_SSL_REDIRECT = True
 
@@ -40,7 +40,7 @@ DEBUG = False
 
 # SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 
-ALLOWED_HOSTS = ['dhruvkej9.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','dhruvkej9.pythonanywhere.com']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -180,7 +180,9 @@ STATIC_URL = 'style/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATIC_ROOT = BASE_DIR / "Assets"
+# STATIC_ROOT = BASE_DIR / "Assets"
+
+STATIC_ROOT = BASE_DIR / 'staticfiles_build' / 'Assets'
 
 # Added Manually
 STATICFILES_DIRS = [
