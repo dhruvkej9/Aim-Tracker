@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = get_random_secret_key()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # SECURE_SSL_REDIRECT = True
 
@@ -40,7 +40,7 @@ DEBUG = True
 
 # SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 
-ALLOWED_HOSTS = ['127.0.0.1','.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['dhruvkej9.pythonanywhere.com']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
