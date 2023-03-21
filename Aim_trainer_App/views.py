@@ -59,7 +59,7 @@ def loginUser(request):
 def profile(request):
     current_user = request.user
     if request.user.is_anonymous:
-        return redirect("/login")
+        return redirect("/signin")
     context = {"username" : current_user.username,"email" : current_user.email,
             "name" : current_user.first_name + ' ' + current_user.last_name}
     return render(request,'profile.html',context) 
