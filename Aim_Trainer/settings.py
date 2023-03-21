@@ -180,9 +180,7 @@ STATIC_URL = 'style/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# STATIC_ROOT = BASE_DIR / "Assets"
-
-STATIC_ROOT = BASE_DIR / 'staticfiles_build' / 'Assets'
+STATIC_ROOT = BASE_DIR / "Assets"
 
 # Added Manually
 STATICFILES_DIRS = [
