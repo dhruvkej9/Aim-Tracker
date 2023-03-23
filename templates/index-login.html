@@ -70,7 +70,13 @@
         border-width: 3px;
         border-radius: 1.25rem;
     }
-    
+    #logout{
+      height: 40px;
+      width: 140px;
+      background-color: #f63d18;
+      border: #f63d18;
+      border-radius: 1.25rem;
+  }
     #play-now{
         height: 40px;
         width: 140px;
@@ -105,19 +111,14 @@
     }
     
     .btn2{
-        color: #f63d18;
+        color: #ffffff;
     }
     
     .btn3{
         color: #f63d18;
     }
-
     .btn4{
-        color: #f63d18;
-    }
-
-    #Statistics{
-        color:#f63d18;
+      color: #f63d18;
     }
     
     
@@ -438,8 +439,8 @@
         <div class="navbar">
           <div class="logo-side">
             <img
-              {% load static %}
-              src= {% static "Black Vintage Artemis Archery Logo Design template (1).png" %}
+            {% load static %}
+            src= {% static "Black Vintage Artemis Archery Logo Design template (1).png" %}
               alt=""
               height="80px"
               width="80px"
@@ -447,22 +448,21 @@
             <h1 class="heading">DRONA</h1>
           </div>
           <div class="signin-and-signup">
-            {% csrf_token %}
             <button id="play-now">
               <b>
                 <i>
-                    <a class="btn3" href="/play">PLAY NOW</a>
+                    <a class="btn3" href="/play">Play now</a>
                 </i>
               </b>
             </button>
-            <button id="Profile">
-                <a class="btn1" href="/profile"><b>Profile</b></a>
-              </button>
-            <button id="Statistics">
-              <a class="btn2" href="/statistic"><b>Statistics</b></a>
+            <button id="signin">
+              <a class="btn1" href="/profile"><b>Profile</b></a>
             </button>
-            <button id="Log out">
-              <a class="btn4" href = "/logout"><b>Log out</b></a>
+            <button id="signin">
+              <a class="btn1" href="/statistic"><b>Statistics</b></a>
+            </button>
+            <button id="logout">
+              <a class="btn2" href="/logout"><b>Logout</b></a>
             </button>
           </div>
         </div>
@@ -485,8 +485,6 @@
 
           </div>
         </div>
-
-
             <section class="section-part bg">
               <div id="feature-section">
                 <!-- head section -->
