@@ -1,6 +1,6 @@
 # Aim-Tracker
 
-![Aim-Tracker Logo](https://your-image-link.com)
+![Aim-Tracker Logo](http://dhruvkej9.pythonanywhere.com/Assets/Black%20Vintage%20Artemis%20Archery%20Logo%20Design%20template%20(1).png)
 
 Aim-Tracker is an innovative game that utilizes cutting-edge AI technology to help individuals enhance their aim tracking skills. By accurately tracking eye movements, the AI algorithm provides valuable insights and personalized feedback to improve targeting abilities.
 
