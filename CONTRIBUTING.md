@@ -38,8 +38,4 @@ Ensure that your code changes include appropriate tests to validate their functi
 
 By contributing to Aim-Tracker, you agree that your contributions will be licensed under the [MIT License](https://opensource.org/licenses/MIT). Make sure to read and understand the license terms before submitting your contributions.
 
-## Contact
-
-If you have any questions or need further assistance, please feel free to reach out to us. You can contact the project team via email at [aimtracker@example.com](mailto:aimtracker@example.com).
-
 We greatly appreciate your contributions and look forward to working with you to improve Aim-Tracker!
