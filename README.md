@@ -1,6 +1,6 @@
 # Aim-Tracker
 
-![Aim-Tracker Logo](http://dhruvkej9.pythonanywhere.com/Assets/Black%20Vintage%20Artemis%20Archery%20Logo%20Design%20template%20(1).png)
+![Aim-Tracker Logo](http://dhruvkej9.pythonanywhere.com/Assets/Black%20Vintage%20Artemis%20Archery%20Logo%20Design%20template%20(1).png){:height="200px" width="200px"}
 
 Aim-Tracker is an innovative game that utilizes cutting-edge AI technology to help individuals enhance their aim tracking skills. By accurately tracking eye movements, the AI algorithm provides valuable insights and personalized feedback to improve targeting abilities.
 
@@ -67,9 +67,3 @@ We welcome contributions from the open-source community. If you'd like to contri
 ## License
 
 Aim-Tracker is released under the [MIT License](https://opensource.org/licenses/MIT). Please review the LICENSE file for more information.
-
-## Contact
-
-If you have any questions, suggestions, or feedback, feel free to reach out to us. You can contact the project team via email at [aimtracker@example.com](mailto:aimtracker@example.com) or visit our website for additional contact details.
-
-We hope you enjoy using Aim-Tracker and witness significant improvements in your aim tracking skills!
