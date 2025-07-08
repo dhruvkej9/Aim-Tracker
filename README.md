@@ -66,11 +66,10 @@ For full setup instructions, refer to the [README](https://github.com/dhruvkej9/
 
 ## 🎥 Live Demo & Video Preview
 
-🔴 **Try Aim-Tracker live:**
+🔴 **Try Aim-Tracker live:**  
 [http://dhruvkej9.pythonanywhere.com/](http://dhruvkej9.pythonanywhere.com/)
 
-▶️ **Watch the demo video below:**
-
+▶️ **Watch the demo video:**  
 [https://www.youtube.com/watch?v=ETDRjmTlVsw](https://www.youtube.com/watch?v=ETDRjmTlVsw)
 
 ---
