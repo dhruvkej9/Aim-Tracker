@@ -71,7 +71,7 @@ For full setup instructions, refer to the [README](https://github.com/dhruvkej9/
 
 ▶️ **Watch the demo video below:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ETDRjmTlVsw" title="Aim-Tracker Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[https://www.youtube.com/watch?v=ETDRjmTlVsw](https://www.youtube.com/watch?v=ETDRjmTlVsw)
 
 ---
 
