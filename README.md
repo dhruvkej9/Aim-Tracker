@@ -2,68 +2,93 @@
 
 <img src="http://dhruvkej9.pythonanywhere.com/Assets/Black%20Vintage%20Artemis%20Archery%20Logo%20Design%20template%20(1).png" alt="Aim-Tracker Logo" height="200px" width="200px">
 
-Aim-Tracker is an innovative game that utilizes cutting-edge AI technology to help individuals enhance their aim tracking skills. By accurately tracking eye movements, the AI algorithm provides valuable insights and personalized feedback to improve targeting abilities.
+**Aim-Tracker** is an innovative AI-powered game designed to enhance your aim tracking skills through advanced eye movement analysis. By leveraging cutting-edge technologies, it offers real-time feedback and personalized insights to improve your precision and targeting ability.
 
-## Features
+---
 
-- **Advanced Eye-Tracking**: The AI model tracks eye movements with exceptional accuracy, allowing players to analyze their aiming techniques and make measurable improvements.
+## 🎯 Features
 
-- **Personalized Feedback**: Receive real-time, targeted feedback tailored to your specific aim tracking skills, helping you identify areas for improvement and enhance your overall performance.
+* **🎯 Advanced Eye-Tracking**
+  Utilizes AI-based eye tracking with high precision to help analyze aiming techniques and spot areas for improvement.
 
-- **Progress Tracking**: Keep track of your progress over time with detailed performance statistics and visualizations, allowing you to monitor your skill development and celebrate milestones.
+* **📊 Personalized Feedback**
+  Real-time analysis and feedback tailored to individual performance, guiding users to enhance accuracy effectively.
 
-- **Engaging Gaming Experience**: Enjoy an immersive gaming experience with captivating visuals and smooth gameplay, making practice sessions enjoyable and addictive.
+* **📈 Progress Tracking**
+  Visualize your performance with detailed statistics and charts, enabling long-term progress monitoring and milestone tracking.
 
-## Applications
+* **🎮 Immersive Gameplay**
+  Enjoy an engaging and smooth gaming experience with appealing visuals, making training both fun and addictive.
 
-The potential applications of Aim-Tracker extend beyond gaming:
+---
 
-- **Sports Training**: Athletes can utilize this technology to improve their hand-eye coordination and precision, enhancing their performance in sports like archery, shooting, and tennis.
+## 🌐 Applications
 
-- **Military Training**: Aim-Tracker can be incorporated into military simulations and training programs to enhance soldiers' marksmanship skills and increase their effectiveness in combat scenarios.
+Aim-Tracker goes beyond gaming and can be applied across various domains:
 
-- **Medical Rehabilitation**: Eye-tracking technology combined with the AI model can assist in the rehabilitation process for individuals recovering from physical or neurological impairments, helping them regain fine motor control.
+* **🏹 Sports Training**
+  Enhances hand-eye coordination and aiming precision for sports like archery, shooting, and tennis.
 
-## Tech Stack
+* **🪖 Military Training**
+  Integrates into military simulations to improve marksmanship and reflex accuracy in real-time combat scenarios.
 
-Aim-Tracker is built using a variety of powerful technologies:
+* **🧠 Medical Rehabilitation**
+  Assists in neuro-motor rehabilitation by helping individuals regain control over fine motor movements through eye-based interaction.
 
-- **HTML**: Provides the structure and semantic markup of the web application.
+---
 
-- **CSS**: Stylesheets are used to enhance the visual appearance and layout of the game.
+## 🛠 Tech Stack
 
-- **Tailwind**: A utility-first CSS framework that streamlines development and improves responsiveness.
+Aim-Tracker is built using the following technologies:
 
-- **PyAutoGUI**: Enables interaction between the AI model and the game by automating mouse movements based on eye-tracking data.
+* **HTML & CSS** – Structural and visual layout of the game interface.
+* **Tailwind CSS** – Utility-first framework for responsive and modern UI design.
+* **JavaScript** – Adds interactivity and dynamic behavior to the game.
+* **MediaPipe** – Powers AI-based eye-tracking capabilities.
+* **OpenCV** – Handles image processing and real-time eye detection.
+* **PyAutoGUI** – Connects eye-tracking to mouse control for live gameplay.
+* **Django** – Backend framework managing data, sessions, and storage.
 
-- **MediaPipe**: A comprehensive framework for building AI-powered applications, utilized in Aim-Tracker to extract eye-tracking information.
+---
 
-- **OpenCV**: Used for image processing tasks, such as detecting eyes and tracking movements.
+## 🚀 Getting Started
 
-- **Django**: A robust web framework that facilitates the development of the game's backend logic and handles data storage and retrieval.
+1. Clone the repository:
+   [🔗 Aim-Tracker GitHub Repository](https://github.com/dhruvkej9/Aim-Tracker)
 
-- **JavaScript**: Enhances interactivity and enables dynamic functionality within the game.
+2. Install dependencies using the provided `requirements.txt`.
 
-## Getting Started
+3. Run the Django server locally or deploy it to a web hosting platform.
 
-To get started with Aim-Tracker:
+For full setup instructions, refer to the [README](https://github.com/dhruvkej9/Aim-Tracker/blob/main/README.md) file.
 
-1. Clone the repository from GitHub: [Aim-Tracker Repository](https://github.com/dhruvkej9/Aim-Tracker).
+---
 
-2. Install the necessary dependencies specified in the project's `requirements.txt` file.
+## 🎥 Live Demo & Video Preview
 
-3. Run the web application locally or deploy it to a web server of your choice.
+🔴 **Try Aim-Tracker live:**
+[http://dhruvkej9.pythonanywhere.com/](http://dhruvkej9.pythonanywhere.com/)
 
-For detailed installation and usage instructions, please refer to the project's README.md file on GitHub.
+▶️ **Watch the demo video below:**
 
-## Live Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ETDRjmTlVsw" title="Aim-Tracker Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Experience Aim-Tracker firsthand by visiting our website: [Aim-Tracker Website](http://dhruvkej9.pythonanywhere.com/).
+---
 
-## Contributing
+## 🤝 Contributing
 
-We welcome contributions from the open-source community. If you'd like to contribute to Aim-Tracker, please follow the guidelines outlined in the project's `CONTRIBUTING.md` file.
+We welcome contributions! To contribute:
 
-## License
+* Fork the repository
+* Create a new branch
+* Submit a pull request
 
-Aim-Tracker is released under the [MIT License](https://opensource.org/licenses/MIT). Please review the LICENSE file for more information.
+Please follow the guidelines in the [`CONTRIBUTING.md`](https://github.com/dhruvkej9/Aim-Tracker/blob/main/CONTRIBUTING.md) file.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the LICENSE file for full details.
+
+---
